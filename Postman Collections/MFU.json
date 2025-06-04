@@ -4629,7 +4629,7 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\n    \"reqHeader\": {\n        \"entityId\": \"{{entity_id}}\",\n        \"version\": \"1.00\",\n        \"reqTS\": \"{{curr_time_stamp}}\",\n        \"apiType\": \"CAN-FETCH\",\n        \"userId\": \"{{fintech_login_id}}\",\n        \"encryptPwd\": \"{{fintech_encrypt_pwd}}\",\n        \"uniqueId\": \"1000000001\"\n    },\n    \"reqBody\": {\n        \"data\": {\n            \"panNo\": \"DCBPP0098J\",\n            \"resdStatus\": \"RM\",\n            \"modeOfHld\": \"SI\",\n            \"dob\": \"1983-01-20\",\n            \"holder2PanNo\": \"\",\n            \"holder3PanNo\": \"\",\n            \"holder2DOB\": \"\",\n            \"holder3DOB\": \"\"\n        }\n    }\n}",
+									"raw": "{\n    \"reqHeader\": {\n        \"entityId\": \"{{entity_id}}\",\n        \"version\": \"1.00\",\n        \"reqTS\": \"{{curr_time_stamp}}\",\n        \"apiType\": \"CAN-FETCH\",\n        \"userId\": \"{{fintech_login_id}}\",\n        \"encryptPwd\": \"{{fintech_encrypt_pwd}}\",\n        \"uniqueId\": \"1000000001\"\n    },\n    \"reqBody\": {\n        \"data\": {\n            \"panNo\": \"CTXPS3820B\",\n            \"resdStatus\": \"RI\",\n            \"modeOfHld\": \"SI\",\n            \"dob\": \"1991-06-05\",\n            \"holder2PanNo\": \"\",\n            \"holder3PanNo\": \"\",\n            \"holder2DOB\": \"\",\n            \"holder3DOB\": \"\"\n        }\n    }\n}",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -4638,7 +4638,73 @@
 								},
 								"url": "https://14.141.212.169:4091/ApiFinTechCanFetchService"
 							},
-							"response": []
+							"response": [
+								{
+									"id": "03ce5879-bc3c-4135-9ff4-2711764a6697",
+									"name": "eCAN fetch",
+									"originalRequest": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "Authorization",
+												"value": "Bearer {{access_token}}",
+												"description": "Used for authentication and get the access token using the OAuth geneation Endpoint \n\nFormat: Bearer <access_token>",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n    \"reqHeader\": {\n        \"entityId\": \"{{entity_id}}\",\n        \"version\": \"1.00\",\n        \"reqTS\": \"{{curr_time_stamp}}\",\n        \"apiType\": \"CAN-FETCH\",\n        \"userId\": \"{{fintech_login_id}}\",\n        \"encryptPwd\": \"{{fintech_encrypt_pwd}}\",\n        \"uniqueId\": \"1000000001\"\n    },\n    \"reqBody\": {\n        \"data\": {\n            \"panNo\": \"CTXPS3820B\",\n            \"resdStatus\": \"RI\",\n            \"modeOfHld\": \"SI\",\n            \"dob\": \"1991-06-05\",\n            \"holder2PanNo\": \"\",\n            \"holder3PanNo\": \"\",\n            \"holder2DOB\": \"\",\n            \"holder3DOB\": \"\"\n        }\n    }\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": "https://14.141.212.169:4091/ApiFinTechCanFetchService"
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "plain",
+									"header": [
+										{
+											"key": "X-FRAME-OPTIONS",
+											"value": "SAMEORIGIN"
+										},
+										{
+											"key": "X-XSS-Protection",
+											"value": "1; mode=block"
+										},
+										{
+											"key": "X-Content-Type-Options",
+											"value": "nosniff"
+										},
+										{
+											"key": "Cache-Control",
+											"value": "no-cache"
+										},
+										{
+											"key": "Strict-Transport-Security",
+											"value": "max-age=63072000; includeSubDomains;preload"
+										},
+										{
+											"key": "Transfer-Encoding",
+											"value": "chunked"
+										},
+										{
+											"key": "Date",
+											"value": "Wed, 04 Jun 2025 12:00:30 GMT"
+										},
+										{
+											"key": "Server",
+											"value": "MFU"
+										}
+									],
+									"cookie": [],
+									"responseTime": null,
+									"body": "{\"respData\":\"qco3StD7o5xaIm3mE569rAZWhZA001HxGyCQChrBIQxdxSu_PaqwNoKj3MKevgY7Qo0ZjsqMqkaLTYmJHBdtMaszhOKeUuRrG_jmcUL9T2wsC-HmHa-CQlnUjHySpye4o4SwkjUI5NXTdWE_I07P0XJKsJnp0bCLQLm6GGZLpLfAzoyqGapC3cOARJm1oJWY\"}"
+								}
+							]
 						}
 					],
 					"id": "d53a4b8a-3455-4aef-b09e-685831b51db6",
