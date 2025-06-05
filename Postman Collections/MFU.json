@@ -9645,7 +9645,7 @@
 														],
 														"body": {
 															"mode": "raw",
-															"raw": "{\n    \"reqHeader\": {\n        \"entityId\": \"{{entity_id}}\",\n        \"version\": \"1.00\",\n        \"reqTS\": \"{{curr_time_stamp}}\",\n        \"apiType\": \"SYS-TXN\",\n        \"userId\": \"{{fintech_login_id}}\",\n        \"encryptPwd\": \"{{fintech_encrypt_pwd}}\",\n        \"uniqueId\": \"1000000001\"\n    },\n    \"reqBody\": {\n        \"data\": {\n            \"txnType\": \"V\",\n            \"entGroupRefNo\": \"{{ent_group_ref_no}}\",\n            \"entityEOPNo\": \"\",\n            \"orderMode\": \"Z\",\n            \"can\": \"14157AZA01\",\n            \"canType\": \"I\",\n            \"reqPrntEnt\": \"\",\n            \"riaCode\": \"INA000020004\",\n            \"arnCode\": \"\",\n            \"subArnCode\": \"\",\n            \"euin\": \"\",\n            \"euinDeclaration\": \"\",\n            \"subBrokCode\": \"\",\n            \"branchRMIntCode\": \"\",\n            \"totAmt\": \"200000\",\n            \"sysSchList\": [\n                {\n                    \"entUnqItrn\": \"{{ent_unq_itrn}}\",\n                    \"rtaAmcCode\": \"RMF\",\n                    \"rtaSchCode\": \"LQAQ\",\n                    \"outRtaSchCode\": \"\",\n                    \"folio\": \"NEW\",\n                    \"divOpt\": \"P\",\n                    \"txnVolTyp\": \"A\",\n                    \"vol\": \"200000\",\n                    \"frequency\": \"M\",\n                    \"day\": \"10\",\n                    \"startMonth\": \"06\",\n                    \"startYear\": \"2025\",\n                    \"endMonth\": \"12\",\n                    \"endYear\": \"2050\",\n                    \"payOutFlag\": \"\",\n                    \"payOutDtl\": {\n                        \"invAccNo\": \"\",\n                        \"micr\": \"\",\n                        \"ifsc\": \"\"\n                    },\n                    \"priOtpFlag\": \"\",\n                    \"priMob\": \"\",\n                    \"priEmail\": \"\"\n                }\n            ],\n            \"dpSecFlag\": \"N\",\n            \"dpSec\": {\n                \"dpType\": \"\",\n                \"dpAccNo\": \"\"\n            },\n            \"paySecFlag\": \"Y\",\n            \"paySec\": {\n                \"payMode\": \"RT\",\n                \"micr\": \"123456789\",\n                \"ifsc\": \"UTBI0BEC135\",\n                \"accType\": \"SB\",\n                \"accNo\": \"12345\",\n                \"payDate\": \"{{curr_date}}\",\n                \"payAmt\": \"200000\",\n                \"beneVan\": \"MFUYES14157AZA01\",\n                \"paymentRefNo\": \"\"\n            },\n            \"subSeqPayFlag\": \"Y\",\n            \"subSeqSec\": {\n                \"payMode\": \"DM\",\n                \"invAccType\": \"SB\",\n                \"invAccNo\": \"12345\",\n                \"micr\": \"123456789\",\n                \"ifsc\": \"UTBI0BEC135\",\n                \"mandateRefNo\": \"TRIS00101\"\n            },\n            \"logDtl\": {\n                \"deviceType\": \"W\",\n                \"custIpAddress\": \"111.11.0.000\"\n            }\n        }\n    }\n}",
+															"raw": "{\n    \"reqHeader\": {\n        \"entityId\": \"{{entity_id}}\",\n        \"version\": \"1.00\",\n        \"reqTS\": \"{{curr_time_stamp}}\",\n        \"apiType\": \"SYS-TXN\",\n        \"userId\": \"{{fintech_login_id}}\",\n        \"encryptPwd\": \"{{fintech_encrypt_pwd}}\",\n        \"uniqueId\": \"1000000001\"\n    },\n    \"reqBody\": {\n        \"data\": {\n            \"txnType\": \"V\",\n            \"entGroupRefNo\": \"{{ent_group_ref_no}}\",\n            \"entityEOPNo\": \"\",\n            \"orderMode\": \"Z\",\n            \"can\": \"14167AZA01\",\n            \"canType\": \"I\",\n            \"reqPrntEnt\": \"\",\n            \"riaCode\": \"INA000020004\",\n            \"arnCode\": \"\",\n            \"subArnCode\": \"\",\n            \"euin\": \"\",\n            \"euinDeclaration\": \"\",\n            \"subBrokCode\": \"\",\n            \"branchRMIntCode\": \"\",\n            \"totAmt\": \"200000\",\n            \"sysSchList\": [\n                {\n                    \"entUnqItrn\": \"{{ent_unq_itrn}}\",\n                    \"rtaAmcCode\": \"RMF\",\n                    \"rtaSchCode\": \"LQAQ\",\n                    \"outRtaSchCode\": \"\",\n                    \"folio\": \"NEW\",\n                    \"divOpt\": \"P\",\n                    \"txnVolTyp\": \"A\",\n                    \"vol\": \"200000\",\n                    \"frequency\": \"M\",\n                    \"day\": \"18\",\n                    \"startMonth\": \"06\",\n                    \"startYear\": \"2025\",\n                    \"endMonth\": \"12\",\n                    \"endYear\": \"2050\",\n                    \"payOutFlag\": \"\",\n                    \"payOutDtl\": {\n                        \"invAccNo\": \"\",\n                        \"micr\": \"\",\n                        \"ifsc\": \"\"\n                    },\n                    \"priOtpFlag\": \"\",\n                    \"priMob\": \"\",\n                    \"priEmail\": \"\"\n                }\n            ],\n            \"dpSecFlag\": \"N\",\n            \"dpSec\": {\n                \"dpType\": \"\",\n                \"dpAccNo\": \"\"\n            },\n            \"paySecFlag\": \"Y\",\n            \"paySec\": {\n                \"payMode\": \"RT\",\n                \"micr\": \"400065002\",\n                \"ifsc\": \"ABHY0065002\",\n                \"accType\": \"SB\",\n                \"accNo\": \"654321\",\n                \"payDate\": \"{{curr_date}}\",\n                \"payAmt\": \"200000\",\n                \"beneVan\": \"MFUYES14167AZA01\",\n                \"paymentRefNo\": \"\"\n            },\n            \"subSeqPayFlag\": \"Y\",\n            \"subSeqSec\": {\n                \"payMode\": \"DM\",\n                \"invAccType\": \"SB\",\n                \"invAccNo\": \"654321\",\n                \"micr\": \"400065002\",\n                \"ifsc\": \"ABHY0065002\",\n                \"mandateRefNo\": \"PRNUAT001\"\n            },\n            \"logDtl\": {\n                \"deviceType\": \"W\",\n                \"custIpAddress\": \"111.11.0.000\"\n            }\n        }\n    }\n}",
 															"options": {
 																"raw": {
 																	"language": "json"
@@ -9654,7 +9654,73 @@
 														},
 														"url": "https://test.mfuonline.com:4091/ApiFinTechSystematicTxnService"
 													},
-													"response": []
+													"response": [
+														{
+															"id": "d2a3655d-5a7b-4eb7-a400-abe1c3a8d2f7",
+															"name": "RTGS",
+															"originalRequest": {
+																"method": "POST",
+																"header": [
+																	{
+																		"key": "Authorization",
+																		"value": "Bearer {{access_token}}",
+																		"description": "Used for authentication and get the access token using the OAuth geneation Endpoint \n\nFormat: Bearer <access_token>",
+																		"type": "text"
+																	}
+																],
+																"body": {
+																	"mode": "raw",
+																	"raw": "{\n    \"reqHeader\": {\n        \"entityId\": \"{{entity_id}}\",\n        \"version\": \"1.00\",\n        \"reqTS\": \"{{curr_time_stamp}}\",\n        \"apiType\": \"SYS-TXN\",\n        \"userId\": \"{{fintech_login_id}}\",\n        \"encryptPwd\": \"{{fintech_encrypt_pwd}}\",\n        \"uniqueId\": \"1000000001\"\n    },\n    \"reqBody\": {\n        \"data\": {\n            \"txnType\": \"V\",\n            \"entGroupRefNo\": \"{{ent_group_ref_no}}\",\n            \"entityEOPNo\": \"\",\n            \"orderMode\": \"Z\",\n            \"can\": \"14167AZA01\",\n            \"canType\": \"I\",\n            \"reqPrntEnt\": \"\",\n            \"riaCode\": \"INA000020004\",\n            \"arnCode\": \"\",\n            \"subArnCode\": \"\",\n            \"euin\": \"\",\n            \"euinDeclaration\": \"\",\n            \"subBrokCode\": \"\",\n            \"branchRMIntCode\": \"\",\n            \"totAmt\": \"200000\",\n            \"sysSchList\": [\n                {\n                    \"entUnqItrn\": \"{{ent_unq_itrn}}\",\n                    \"rtaAmcCode\": \"RMF\",\n                    \"rtaSchCode\": \"LQAQ\",\n                    \"outRtaSchCode\": \"\",\n                    \"folio\": \"NEW\",\n                    \"divOpt\": \"P\",\n                    \"txnVolTyp\": \"A\",\n                    \"vol\": \"200000\",\n                    \"frequency\": \"M\",\n                    \"day\": \"18\",\n                    \"startMonth\": \"06\",\n                    \"startYear\": \"2025\",\n                    \"endMonth\": \"12\",\n                    \"endYear\": \"2050\",\n                    \"payOutFlag\": \"\",\n                    \"payOutDtl\": {\n                        \"invAccNo\": \"\",\n                        \"micr\": \"\",\n                        \"ifsc\": \"\"\n                    },\n                    \"priOtpFlag\": \"\",\n                    \"priMob\": \"\",\n                    \"priEmail\": \"\"\n                }\n            ],\n            \"dpSecFlag\": \"N\",\n            \"dpSec\": {\n                \"dpType\": \"\",\n                \"dpAccNo\": \"\"\n            },\n            \"paySecFlag\": \"Y\",\n            \"paySec\": {\n                \"payMode\": \"RT\",\n                \"micr\": \"400065002\",\n                \"ifsc\": \"ABHY0065002\",\n                \"accType\": \"SB\",\n                \"accNo\": \"654321\",\n                \"payDate\": \"{{curr_date}}\",\n                \"payAmt\": \"200000\",\n                \"beneVan\": \"MFUYES14167AZA01\",\n                \"paymentRefNo\": \"\"\n            },\n            \"subSeqPayFlag\": \"Y\",\n            \"subSeqSec\": {\n                \"payMode\": \"DM\",\n                \"invAccType\": \"SB\",\n                \"invAccNo\": \"654321\",\n                \"micr\": \"400065002\",\n                \"ifsc\": \"ABHY0065002\",\n                \"mandateRefNo\": \"PRNUAT001\"\n            },\n            \"logDtl\": {\n                \"deviceType\": \"W\",\n                \"custIpAddress\": \"111.11.0.000\"\n            }\n        }\n    }\n}",
+																	"options": {
+																		"raw": {
+																			"language": "json"
+																		}
+																	}
+																},
+																"url": "https://test.mfuonline.com:4091/ApiFinTechSystematicTxnService"
+															},
+															"status": "OK",
+															"code": 200,
+															"_postman_previewlanguage": "plain",
+															"header": [
+																{
+																	"key": "X-FRAME-OPTIONS",
+																	"value": "SAMEORIGIN"
+																},
+																{
+																	"key": "X-XSS-Protection",
+																	"value": "1; mode=block"
+																},
+																{
+																	"key": "X-Content-Type-Options",
+																	"value": "nosniff"
+																},
+																{
+																	"key": "Cache-Control",
+																	"value": "no-cache"
+																},
+																{
+																	"key": "Strict-Transport-Security",
+																	"value": "max-age=63072000; includeSubDomains;preload"
+																},
+																{
+																	"key": "Transfer-Encoding",
+																	"value": "chunked"
+																},
+																{
+																	"key": "Date",
+																	"value": "Thu, 05 Jun 2025 06:36:06 GMT"
+																},
+																{
+																	"key": "Server",
+																	"value": "MFU"
+																}
+															],
+															"cookie": [],
+															"responseTime": null,
+															"body": "{\"respData\":\"qco3StD7o5xaIm3mE569rAZWhZA001HxGyCQChrBIQxdxSu_PaqwNoKj3MKevgY7bMCWrFaYS0SkzBCb6cGpEd2iph9ZOyBKWZOWLSJ1fkQ6cbVsqxn9FZG9KKFgCAUKV7J6UjNQMeKeUnPImIBl8cJN5mv2SHSpFWjpFcveZdA2cuCvm4XgdKKKXGUjIed4t19qppSU8kQEmXLBCThpujqZWacowptOI7DNElcmeoQa9vRYo5BlTn6GGOiV4wZHe1Z40EpCMeHTPYCMJZXVMinC4L08jGYgzkiV1Uir7WrMC01rBoYmxxoB9GfyPTUN4L1rYaU7-Jt6e--VhY88gj63dYXrYArtj8XSgC3qv1l8xwiBh1apHi8BjbD3s4ZZIcARQOt89M8JeLn7W2_rLmDNUwNe60JZNWq0Fchqz8sHxSAlWp8pp4pPSK5dPFz5SQj--FYt541pAto2X5TZEywCSRgKCE1nG_XuKSPJUmghiMbB5NOOR-eaAAoqEZfqYGcv9LOKFZUZjk5p4RNEERYwxk5Rd6QUp9FczS7y0hn4d8B-NYG2Ii0oThk-mEWY1f9v990NDfbQkHW5ud5EWzKZMJDifqSZE5QkjWhPtVzoC_9LT4tyxKOUYrPAwGhj0jQ8QcdJjm9N8OidP5aaBIVQJUTk2o5mmu-7liq_ZtPA8PNhEjKCqbWp9-kYgw-1LHYwP0_6FQTmRPd1XYpTay7oAdz6nG0qUYUDNCHDXtoRmGb8et8z_AiBLqqepF8wcdE8g3oHzYL3mUWnEaotHBHdhg3V4pHtf4ogGx9PV9R00uapd4H_TGAHTIIA3z6g\"}"
+														}
+													]
 												}
 											],
 											"id": "b66e6248-6f13-4fcf-9f26-7f1b976da0c2"
