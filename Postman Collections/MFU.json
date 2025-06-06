@@ -4137,7 +4137,7 @@
 								},
 								{
 									"key": "sessioncontext",
-									"value": "25132420004C33246C",
+									"value": "25132420004B50FA87",
 									"description": "pass the session context as per the login response",
 									"type": "text",
 									"uuid": "603436e3-f1d1-4ce0-898c-5d901d7362cb"
@@ -4179,7 +4179,7 @@
 								},
 								{
 									"key": "can",
-									"value": "14157AZA01",
+									"value": "15309BAA01",
 									"description": "Investor CAN for placing the registration request",
 									"type": "text",
 									"uuid": "f5543081-e28d-47c5-a8ea-4c643bbe2153"
@@ -4221,7 +4221,7 @@
 								},
 								{
 									"key": "accNo",
-									"value": "913010038337725",
+									"value": "12345",
 									"description": "CAN Bank Account Number",
 									"type": "text",
 									"uuid": "9c415476-b5ce-46e0-ae45-7443c52faa33"
@@ -4235,14 +4235,14 @@
 								},
 								{
 									"key": "ifscCode",
-									"value": "UTIB0000558",
+									"value": "CBIN0280600",
 									"description": "CAN Bank Account IFSC Number",
 									"type": "text",
 									"uuid": "882e71fd-53e3-40b9-998b-01b1a719c59b"
 								},
 								{
 									"key": "micrCode",
-									"value": "560211016",
+									"value": "400016018",
 									"description": "CAN Bank Account  MICR Number",
 									"type": "text",
 									"uuid": "31dfe9d7-4f82-4f91-9176-4273f8deeca8"
