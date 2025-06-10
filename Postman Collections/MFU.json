@@ -1439,7 +1439,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<CANDataStatusReq xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"\n\txsi:noNamespaceSchemaLocation=\"CANDataStatusReq.xsd\">\n\t<REQ_HEADER>\n\t\t<ENTITY_ID>{{entity_id}}</ENTITY_ID>\n\t\t<UNIQUE_ID></UNIQUE_ID>\n\t\t<REQUEST_TYPE>CANDATASTATUS</REQUEST_TYPE>\n\t\t<LOG_USER_ID>{{ecan_login_id}}</LOG_USER_ID>\n\t\t<EN_ENCR_PASSWORD>{{ecan_encrypt_pwd}}</EN_ENCR_PASSWORD>\n\t\t<VERSION_NO>1.00</VERSION_NO>\n\t\t<TIMESTAMP>{{curr_time_stamp}}</TIMESTAMP>\n\t</REQ_HEADER>\n\t<REQ_BODY>\n\t\t<CAN>32161LM004</CAN>\n\t</REQ_BODY>\n</CANDataStatusReq>",
+							"raw": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<CANDataStatusReq xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"\n\txsi:noNamespaceSchemaLocation=\"CANDataStatusReq.xsd\">\n\t<REQ_HEADER>\n\t\t<ENTITY_ID>{{entity_id}}</ENTITY_ID>\n\t\t<UNIQUE_ID></UNIQUE_ID>\n\t\t<REQUEST_TYPE>CANDATASTATUS</REQUEST_TYPE>\n\t\t<LOG_USER_ID>{{ecan_login_id}}</LOG_USER_ID>\n\t\t<EN_ENCR_PASSWORD>{{ecan_encrypt_pwd}}</EN_ENCR_PASSWORD>\n\t\t<VERSION_NO>1.00</VERSION_NO>\n\t\t<TIMESTAMP>{{curr_time_stamp}}</TIMESTAMP>\n\t</REQ_HEADER>\n\t<REQ_BODY>\n\t\t<CAN>32161LM00M</CAN>\n\t</REQ_BODY>\n</CANDataStatusReq>",
 							"options": {
 								"raw": {
 									"language": "xml"
