@@ -13418,7 +13418,7 @@
 			]
 		},
 		{
-			"name": "https://ifsc.razorpay.com/SBIN0003791",
+			"name": "Get Details from the IFSC",
 			"id": "196f1b39-d546-4c1b-bcf7-28dfc0c4d3eb",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
@@ -13428,7 +13428,81 @@
 				"header": [],
 				"url": "https://ifsc.razorpay.com/SBIN0003791"
 			},
-			"response": []
+			"response": [
+				{
+					"id": "264612b7-5b7e-41c7-81b3-4a6f0babdf24",
+					"name": "Get Details from the IFSC",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": "https://ifsc.razorpay.com/SBIN0003791"
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Thu, 12 Jun 2025 06:53:38 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Content-Length",
+							"value": "267"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Encoding",
+							"value": "gzip"
+						},
+						{
+							"key": "Content-Security-Policy",
+							"value": "default-src 'self' razorpay.com; font-src 'self' fonts.gstatic.com; img-src cdn.razorpay.com razorpay.com www.google-analytics.com stats.g.doubleclick.net; object-src 'none'; script-src 'self' www.google-analytics.com; style-src 'self' 'unsafe-inline' fonts.googleapis.com"
+						},
+						{
+							"key": "Strict-Transport-Security",
+							"value": "max-age=315360000; includeSubDomains"
+						},
+						{
+							"key": "Vary",
+							"value": "Accept-Encoding"
+						},
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "X-Download-Options",
+							"value": "noopen"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "DENY"
+						},
+						{
+							"key": "X-Permitted-Cross-Domain-Policies",
+							"value": "none"
+						},
+						{
+							"key": "X-Xss-Protection",
+							"value": "1; mode=block"
+						}
+					],
+					"cookie": [],
+					"responseTime": null,
+					"body": "{\n    \"MICR\": \"380002018\",\n    \"BRANCH\": \"GIRDHARNAGAR\",\n    \"ADDRESS\": \"PETEL SANATORIUM,SAHIBGANJ ROAD,AHMEDABAD,GUJARAT,PIN380004\",\n    \"STATE\": \"GUJARAT\",\n    \"CONTACT\": \"+917922867186\",\n    \"UPI\": true,\n    \"RTGS\": true,\n    \"CITY\": \"AHMEDABAD\",\n    \"CENTRE\": \"AHMEDABAD\",\n    \"DISTRICT\": \"AHMEDABAD\",\n    \"NEFT\": true,\n    \"IMPS\": true,\n    \"SWIFT\": null,\n    \"ISO3166\": \"IN-GJ\",\n    \"BANK\": \"State Bank of India\",\n    \"BANKCODE\": \"SBIN\",\n    \"IFSC\": \"SBIN0003791\"\n}"
+				}
+			]
 		}
 	],
 	"event": [
