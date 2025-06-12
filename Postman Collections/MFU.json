@@ -1282,6 +1282,71 @@
 									"cookie": [],
 									"responseTime": null,
 									"body": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>\n<CANIndFillEezzResp>\n    <RESP_HEADER>\n        <ENTITY_ID>4200AM</ENTITY_ID>\n        <UNIQUE_ID></UNIQUE_ID>\n        <REQUEST_TYPE>CANINDREG</REQUEST_TYPE>\n        <VERSION_NO>1.00</VERSION_NO>\n        <TIMESTAMP>2025-06-12T10:49:31</TIMESTAMP>\n        <RES_CODE>0</RES_CODE>\n        <RES_MSG>Success</RES_MSG>\n    </RESP_HEADER>\n    <RESP_BODY>\n        <CAN>32163LM002</CAN>\n        <NOM_VER_LINK_H1>https://14.141.212.169:4091/CanCDNVLinkViewAction.do?key=n2eNKQ4faT6H8hmiRi6m/7BFVzdWG1zswohF896NZW8GUSwEQ7x0XsWFle3DjzT7WY37zU9dcd2dZ+/Im2+Pswd9bC9j4j3Nj3QXAjXxFhjQEVaTvL+fjODJSgyUqJWOuD/P7NpKA6GYHpB0fsY/ZHq1I7gu9XELPghRCDZV02gvG4OdZsDKjS0MyMeW9l6q</NOM_VER_LINK_H1>\n        <NOM_VER_LINK_H2></NOM_VER_LINK_H2>\n        <NOM_VER_LINK_H3></NOM_VER_LINK_H3>\n    </RESP_BODY>\n</CANIndFillEezzResp>\n"
+								},
+								{
+									"id": "becb67ee-cb98-4667-9498-59dfa266e791",
+									"name": "Single Holder [900244]",
+									"originalRequest": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "Authorization",
+												"value": "Bearer {{access_token}}",
+												"description": "Used for authentication and get the access token using the OAuth geneation Endpoint \n\nFormat: Bearer <access_token>",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<CANIndFillEezzReq xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"\n\txsi:noNamespaceSchemaLocation=\"CANIndFillEezzReq.xsd\">\n    <REQ_HEADER>\n        <ENTITY_ID>{{entity_id}}</ENTITY_ID>\n        <UNIQUE_ID></UNIQUE_ID>\n        <REQUEST_TYPE>CANINDREG</REQUEST_TYPE>\n        <LOG_USER_ID>{{ecan_login_id}}</LOG_USER_ID>\n        <EN_ENCR_PASSWORD>{{ecan_encrypt_pwd}}</EN_ENCR_PASSWORD>\n        <VERSION_NO>1.00</VERSION_NO>\n        <TIMESTAMP>{{curr_time_stamp}}</TIMESTAMP>\n    </REQ_HEADER>\n    <REQ_BODY>\n        <REQ_ENT_VIA></REQ_ENT_VIA>\n        <REQ_EVENT>CR</REQ_EVENT>\n        <!-- CR - CAN CREATION EVENT , CM  CAN Modification Event-->\n        <CAN></CAN>\n        <!--  Only for CAN Modification -->\n        <REG_TYPE>E</REG_TYPE>\n        <!--  Physical,Electronic (P,E) -->\n        <PROOF_UPLOAD_BY_CAN>N</PROOF_UPLOAD_BY_CAN>\n        <!--  Y-YES ,N - NO -->\n        <ENABLE_ONLINE_ACCESS_FLAG>Y</ENABLE_ONLINE_ACCESS_FLAG>\n        <!--  Y-YES ,N - NO -->\n        <ENTITY_EMAIL_DETAILS>\n            <EMAIL_ID></EMAIL_ID>\n            <EMAIL_ID></EMAIL_ID>\n        </ENTITY_EMAIL_DETAILS>\n        <HOLDING_TYPE>SI</HOLDING_TYPE>\n        <INV_CATEGORY>I</INV_CATEGORY>\n        <TAX_STATUS>RI</TAX_STATUS>\n        <HOLDER_COUNT>1</HOLDER_COUNT>\n        <HOLDER_RECORDS>\n            <HOLDER_RECORD>\n                <HOLDER_TYPE>PR</HOLDER_TYPE>\n                <!-- PR,SE,TH,GU -->\n                <NAME>Kabilesh</NAME>\n                <DOB>1983-01-20</DOB>\n                <PAN_EXEMPT_FLAG>N</PAN_EXEMPT_FLAG>\n                <PAN_PEKRN_NO>{{pan_number}}</PAN_PEKRN_NO>\n                <AADHAAR_NO></AADHAAR_NO>\n                <!-- As of version 5.5 of eCAN specification, this should be blank always. -->\n                <RELATIONSHIP></RELATIONSHIP>\n                <!-- Applicable only for Gaurdian Holder -->\n                <REL_PROOF></REL_PROOF>\n                <!-- Applicable only for Gaurdian Holder -->\n                <NOM_VER_FLAG></NOM_VER_FLAG>\n                <NOM_VER_IP></NOM_VER_IP>\n                <KYC_DATA>\n                    <KYC_STATUS></KYC_STATUS>\n                    <SOURCE_KRA></SOURCE_KRA>\n                    <RES_ADDR_DETAIL>\n                        <ADDR1></ADDR1>\n                        <ADDR2></ADDR2>\n                        <ADDR3></ADDR3>\n                        <CITY></CITY>\n                        <PINCODE></PINCODE>\n                        <STATE></STATE>\n                        <COUNTRY></COUNTRY>\n                    </RES_ADDR_DETAIL>\n                    <PER_ADDR_DETAIL>\n                        <ADDR1></ADDR1>\n                        <ADDR2></ADDR2>\n                        <ADDR3></ADDR3>\n                        <CITY></CITY>\n                        <PINCODE></PINCODE>\n                        <STATE></STATE>\n                        <COUNTRY></COUNTRY>\n                    </PER_ADDR_DETAIL>\n                </KYC_DATA>\n                <CONTACT_DETAIL>\n                    <RES_ISD></RES_ISD>\n                    <RES_STD></RES_STD>\n                    <RES_PHONE_NO></RES_PHONE_NO>\n                    <MOB_ISD_CODE></MOB_ISD_CODE>\n                    <PRI_MOB_NO>{{mobile_number}}</PRI_MOB_NO>\n                    <PRI_MOB_BELONGSTO>SE</PRI_MOB_BELONGSTO>\n                    <!--  S-SELF,F-FAMILY -->\n                    <ALT_MOB_NO></ALT_MOB_NO>\n                    <OFF_ISD></OFF_ISD>\n                    <OFF_STD></OFF_STD>\n                    <OFF_PHONE_NO></OFF_PHONE_NO>\n                    <PRI_EMAIL>{{email_id}}</PRI_EMAIL>\n                    <PRI_EMAIL_BELONGSTO>SE</PRI_EMAIL_BELONGSTO>\n                    <!--  S-SELF,F-FAMILY -->\n                    <ALT_EMAIL></ALT_EMAIL>\n                    <PRI_MOB_VER_FLAG></PRI_MOB_VER_FLAG>\n                    <PRI_EMAIL_VER_FLAG></PRI_EMAIL_VER_FLAG>\n                    <PRI_MOB_IP_ADDR></PRI_MOB_IP_ADDR>\n                    <PRI_EMAIL_IP_ADDR></PRI_EMAIL_IP_ADDR>\n                    <PRI_MOB_VER_TS></PRI_MOB_VER_TS>\n                    <PRI_EMAIL_VER_TS></PRI_EMAIL_VER_TS>\n                </CONTACT_DETAIL>\n                <OTHER_DETAIL>\n                    <GROSS_INCOME>03</GROSS_INCOME>\n                    <NET_WORTH></NET_WORTH>\n                    <NET_DATE></NET_DATE>\n                    <SOURCE_OF_WEALTH></SOURCE_OF_WEALTH>\n                    <SOURCE_OF_WEALTH_OTH></SOURCE_OF_WEALTH_OTH>\n                    <KRA_ADDR_TYPE>1</KRA_ADDR_TYPE>\n                    <OCCUPATION>01</OCCUPATION>\n                    <OCCUPATION_OTH></OCCUPATION_OTH>\n                    <PEP>NA</PEP>\n                    <ANY_OTH_INFO></ANY_OTH_INFO>\n                </OTHER_DETAIL>\n                <FATCA_DETAIL>\n                    <BIRTH_CITY>BHARUCH</BIRTH_CITY>\n                    <BIRTH_COUNTRY>101</BIRTH_COUNTRY>\n                    <BIRTH_COUNTRY_OTH></BIRTH_COUNTRY_OTH>\n                    <CITIZENSHIP>101</CITIZENSHIP>\n                    <CITIZENSHIP_OTH></CITIZENSHIP_OTH>\n                    <NATIONALITY>101</NATIONALITY>\n                    <NATIONALITY_OTH></NATIONALITY_OTH>\n                    <TAX_RES_FLAG>N</TAX_RES_FLAG>\n                </FATCA_DETAIL>\n            </HOLDER_RECORD>\n        </HOLDER_RECORDS>\n        <ARN_DETAILS>\n            <!--  RIA Code need to add -->\n            <ARN_NO></ARN_NO>\n            <RIA_CODE></RIA_CODE>\n            <!-- RIA Code -->\n            <EUIN_CODE></EUIN_CODE>\n        </ARN_DETAILS>\n        <CONSENT_DETAILS>\n            <CONSENT_RECORD>\n                <DATA_SET>PD</DATA_SET>\n                <ENABLED_CONSENT>Y</ENABLED_CONSENT>\n            </CONSENT_RECORD>\n            <CONSENT_RECORD>\n                <DATA_SET>CD</DATA_SET>\n                <ENABLED_CONSENT>Y</ENABLED_CONSENT>\n            </CONSENT_RECORD>\n            <CONSENT_RECORD>\n                <DATA_SET>MF</DATA_SET>\n                <ENABLED_CONSENT>N</ENABLED_CONSENT>\n            </CONSENT_RECORD>\n            <CONSENT_RECORD>\n                <DATA_SET>HD</DATA_SET>\n                <ENABLED_CONSENT>N</ENABLED_CONSENT>\n            </CONSENT_RECORD>\n        </CONSENT_DETAILS>\n        <DP_DETAILS>\n            <NSDL_DP_ID></NSDL_DP_ID>\n            <NSDL_CLIENT_ID></NSDL_CLIENT_ID>\n            <NSDL_PROOF_ID></NSDL_PROOF_ID>\n            <NSDL_VER_FLAG></NSDL_VER_FLAG>\n            <CDSL_DP_ID></CDSL_DP_ID>\n            <CDSL_CLIENT_ID></CDSL_CLIENT_ID>\n            <CDSL_PROOF_ID></CDSL_PROOF_ID>\n            <CDSL_VER_FLAG></CDSL_VER_FLAG>\n        </DP_DETAILS>\n        <BANK_DETAILS>\n            <!--Multiple Record-->\n            <BANK_RECORD>\n                <SEQ_NUM>1</SEQ_NUM>\n                <DEFAULT_ACC_FLAG>Y</DEFAULT_ACC_FLAG>\n                <ACCOUNT_NO>1234656789</ACCOUNT_NO>\n                <ACCOUNT_TYPE>SB</ACCOUNT_TYPE>\n                <BANK_ID>1374747484165</BANK_ID>\n                <MICR_CODE>400065002</MICR_CODE>\n                <IFSC_CODE>ABHY0065002</IFSC_CODE>\n                <PROOF>14</PROOF>\n                <RUP_VER_FLG></RUP_VER_FLG>\n                <RUP_BENE_NAME></RUP_BENE_NAME>\n                <RUP_THRESHOLD></RUP_THRESHOLD>\n                <RUP_IP_ADDR></RUP_IP_ADDR>\n                <RUP_TS></RUP_TS>\n            </BANK_RECORD>\n        \n        </BANK_DETAILS>\n        <NOMINEE_DETAILS>\n            <NOM_DECL_LVL>C</NOM_DECL_LVL>\n            <NOMIN_OPT_FLAG>N</NOMIN_OPT_FLAG>\n            <NOM_FOLIO_SOA></NOM_FOLIO_SOA>\n        </NOMINEE_DETAILS>\n    </REQ_BODY>\n</CANIndFillEezzReq>",
+											"options": {
+												"raw": {
+													"language": "xml"
+												}
+											}
+										},
+										"url": "https://14.141.212.169:4091/MFUCanFillEezzService"
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "plain",
+									"header": [
+										{
+											"key": "X-FRAME-OPTIONS",
+											"value": "SAMEORIGIN"
+										},
+										{
+											"key": "X-XSS-Protection",
+											"value": "1; mode=block"
+										},
+										{
+											"key": "X-Content-Type-Options",
+											"value": "nosniff"
+										},
+										{
+											"key": "Cache-Control",
+											"value": "no-cache"
+										},
+										{
+											"key": "Strict-Transport-Security",
+											"value": "max-age=63072000; includeSubDomains;preload"
+										},
+										{
+											"key": "Content-Length",
+											"value": "852"
+										},
+										{
+											"key": "Date",
+											"value": "Thu, 12 Jun 2025 06:21:53 GMT"
+										},
+										{
+											"key": "Server",
+											"value": "MFU"
+										}
+									],
+									"cookie": [],
+									"responseTime": null,
+									"body": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>\n<CANIndFillEezzResp>\n    <RESP_HEADER>\n        <ENTITY_ID>4200AM</ENTITY_ID>\n        <UNIQUE_ID></UNIQUE_ID>\n        <REQUEST_TYPE>CANINDREG</REQUEST_TYPE>\n        <VERSION_NO>1.00</VERSION_NO>\n        <TIMESTAMP>2025-06-12T11:51:53</TIMESTAMP>\n        <RES_CODE>0</RES_CODE>\n        <RES_MSG>Success</RES_MSG>\n    </RESP_HEADER>\n    <RESP_BODY>\n        <CAN>32163LM008</CAN>\n        <NOM_VER_LINK_H1>https://14.141.212.169:4091/CanCDNVLinkViewAction.do?key=21e0MflmcuMyNWFgVlFRZ6y3FudPQx6WEvRnBjXqn0UXdk4qNcfm1PD96YvEjoMzksuN9l6Etax0qE9rDQI868H36zxCu5Jj6QhQrtfebR8Qcl8RdvNMERFfKtbUxPUk1zCCbGUw4t+utAvsBRQxJm4dbWEw+8MGvbbBOG4IoX9alGOssMVZhokVliCdd2Jj</NOM_VER_LINK_H1>\n        <NOM_VER_LINK_H2></NOM_VER_LINK_H2>\n        <NOM_VER_LINK_H3></NOM_VER_LINK_H3>\n    </RESP_BODY>\n</CANIndFillEezzResp>\n"
 								}
 							]
 						},
