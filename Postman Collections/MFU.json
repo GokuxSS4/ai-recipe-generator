@@ -5383,6 +5383,11 @@
 									"id": "2d128e68-f9d4-4623-8314-58ba4dd29ee1"
 								},
 								{
+									"name": "New Folder",
+									"item": [],
+									"id": "2c37e585-8f5c-405a-896f-709c7944b185"
+								},
+								{
 									"name": "Entry Transaction",
 									"id": "5858ce77-1b20-49e5-8584-c66015ff3387",
 									"protocolProfileBehavior": {
