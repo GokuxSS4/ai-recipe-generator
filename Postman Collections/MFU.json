@@ -5311,7 +5311,7 @@
 									"name": "simulation of SIP",
 									"item": [
 										{
-											"name": "Monthly SIP",
+											"name": "Monthly SIP [with Specific freq of Installments]",
 											"event": [
 												{
 													"listen": "prerequest",
