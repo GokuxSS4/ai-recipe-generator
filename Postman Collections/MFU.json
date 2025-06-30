@@ -5471,7 +5471,54 @@
 														"header": [],
 														"body": {
 															"mode": "raw",
-															"raw": "{\n    \"reqHeader\": {\n        \"entityId\": \"{{entity_id}}\",\n        \"version\": \"V1.00\",\n        \"reqTS\": \"{{req_ts}}\",\n        \"apiType\": \"SCHD-ENTRY\",\n        \"userId\": \"CUSPMONUAT\",\n        \"encryptPwd\": \"{{sch_txn_encrypt_pwd}}\",\n        \"uniqueId\": \"10001001\"\n    },\n    \"reqBody\": {\n        \"event\": \"E\",\n        \"extRefNo\": \"12907241888\",\n        \"corn\": \"\",\n        \"mode\": \"R\",\n        \"subMode\": \"F\",\n        \"apprType\": \"O\",\n        \"can\": \"14157AZA01\",\n        \"txnType\": \"B\",\n        \"jntFlag\": \"N\",\n        \"holdInfo\": [],\n        \"riaCode\": \"INA000020004\",\n        \"arnCode\": \"\",\n        \"subArnCode\": \"\",\n        \"euin\": \"\",\n        \"castDtl\": {\n            \"schDates\": \"\",\n            \"freq\": \"M\",\n            \"freDay\": \"16\",\n            \"stDate\": \"2025-07-16\",\n            \"endType\": \"D\",\n            \"noOfIns\": \"\",\n            \"endDate\": \"2050-07-16\",\n            \"trigType\": \"\",\n            \"execLvl\": \"\",\n            \"gChType\": \"\",\n            \"gChVol\": \"\",\n            \"gEndRngDate\": \"\"\n        },\n        \"noOfSch\": \"1\",\n        \"totAmt\": \"1000\",\n        \"schList\": [\n            {\n                \"rtaAmcCode\": \"RMF\",\n                \"rtaSchCode\": \"LQAQ\",\n                \"outRtaSchCode\": \"\",\n                \"folio\": \"NEW\",\n                \"divOpt\": \"P\",\n                \"txnVolTyp\": \"A\",\n                \"vol\": \"1000\",\n                \"extUnqRefId\": \"123\",\n                \"chAmtFlag\": \"N\",\n                \"chAmtDtl\": {\n                    \"chType\": \"\",\n                    \"chVol\": \"\",\n                    \"endRngDate\": \"\",\n                    \"chPeriod\": \"\",\n                    \"chPerType\": \"\",\n                    \"chPerVal\": \"\",\n                    \"navTrigTxnType\": \"\"\n                },\n                \"payOutFlag\": \"N\",\n                \"payOutDtl\": {\n                    \"invAccNo\": \"\",\n                    \"micr\": \"\",\n                    \"ifsc\": \"\"\n                },\n                \"priOtpFlag\": \"\",\n                \"priMob\": \"\",\n                \"priEmail\": \"\"\n            }\n        ],\n        \"dpSecFlag\": \"N\",\n        \"dpSec\": {\n            \"dpType\": \"\",\n            \"dpAccNo\": \"\"\n        },\n        \"paySecFlag\": \"Y\",\n        \"paySec\": {\n            \"payMode\": \"DM\",\n            \"bnkId\": \"027\",\n            \"micr\": \"123456789\",\n            \"ifsc\": \"UTBI0BEC135\",\n            \"accType\": \"SB\",\n            \"accNo\": \"12345\",\n            \"payAmt\": \"1000\",\n            \"payRefNo\": \"TRIS00101\",\n            \"beneVan\": \"\",\n            \"pgId\": \"\"\n        }\n    }\n}",
+															"raw": "{\n    \"reqHeader\": {\n        \"entityId\": \"{{entity_id}}\",\n        \"version\": \"V1.00\",\n        \"reqTS\": \"{{req_ts}}\",\n        \"apiType\": \"SCHD-ENTRY\",\n        \"userId\": \"CUSPMONUAT\",\n        \"encryptPwd\": \"{{sch_txn_encrypt_pwd}}\",\n        \"uniqueId\": \"10001001\"\n    },\n    \"reqBody\": {\n        \"event\": \"E\",\n        \"extRefNo\": \"12907241888\",\n        \"corn\": \"\",\n        \"mode\": \"R\",\n        \"subMode\": \"F\",\n        \"apprType\": \"O\",\n        \"can\": \"14157AZA01\",\n        \"txnType\": \"B\",\n        \"jntFlag\": \"N\",\n        \"holdInfo\": [],\n        \"riaCode\": \"INA000020004\",\n        \"arnCode\": \"\",\n        \"subArnCode\": \"\",\n        \"euin\": \"\",\n        \"castDtl\": {\n            \"schDates\": \"\",\n            \"freq\": \"M\",\n            \"freDay\": \"16\",\n            \"stDate\": \"2025-07-16\",\n            \"endType\": \"D\",\n            \"noOfIns\": \"\",\n            \"endDate\": \"2050-07-16\",\n            \"trigType\": \"\",\n            \"execLvl\": \"\",\n            \"gChType\": \"\",\n            \"gChVol\": \"\",\n            \"gEndRngDate\": \"\"\n        },\n        \"noOfSch\": \"1\",\n        \"totAmt\": \"1000\",\n        \"schList\": [\n            {\n                \"rtaAmcCode\": \"RMF\",\n                \"rtaSchCode\": \"LQAQ\",\n                \"outRtaSchCode\": \"\",\n                \"folio\": \"NEW\",\n                \"divOpt\": \"P\",\n                \"txnVolTyp\": \"A\",\n                \"vol\": \"1000\",\n                \"extUnqRefId\": \"123\",\n                \"chAmtFlag\": \"N\",\n                \"chAmtDtl\": {\n                    \"chType\": \"\",\n                    \"chVol\": \"\",\n                    \"endRngDate\": \"\",\n                    \"chPeriod\": \"\",\n                    \"chPerType\": \"\",\n                    \"chPerVal\": \"\",\n                    \"navTrigTxnType\": \"\"\n                },\n                \"payOutFlag\": \"N\",\n                \"payOutDtl\": {\n                    \"invAccNo\": \"\",\n                    \"micr\": \"\",\n                    \"ifsc\": \"\"\n                },\n                \"priOtpFlag\": \"\",\n                \"priMob\": \"\",\n                \"priEmail\": \"\"\n            }\n        ],\n        \"dpSecFlag\": \"N\",\n        \"dpSec\": {\n            \"dpType\": \"\",\n            \"dpAccNo\": \"\"\n        },\n        \"paySecFlag\": \"Y\",\n        \"paySec\": {\n            \"payMode\": \"NE\",\n            \"bnkId\": \"027\",\n            \"micr\": \"123456789\",\n            \"ifsc\": \"UTBI0BEC135\",\n            \"accType\": \"SB\",\n            \"accNo\": \"12345\",\n            \"payAmt\": \"1000\",\n            \"payRefNo\": \"\",\n            \"beneVan\": \"MFUYES14157AZA01\",\n            \"pgId\": \"\"\n        }\n    }\n}",
+															"options": {
+																"raw": {
+																	"language": "json"
+																}
+															}
+														},
+														"url": "https://14.141.212.169:4091/MFUCaSTService"
+													},
+													"response": []
+												},
+												{
+													"name": "Net Banking Copy",
+													"event": [
+														{
+															"listen": "prerequest",
+															"script": {
+																"id": "e8cf44c7-c244-410a-82f1-284bcdd543cd",
+																"exec": [
+																	"// // Generate timestamp in 'YYYY-MM-DD HH:mm:ss' format",
+																	"function getFormattedTimestamp() {",
+																	"    const now = new Date();",
+																	"    const pad = (n) => n.toString().padStart(2, '0');",
+																	"    return `${now.getFullYear()}-${pad(now.getMonth() + 1)}-${pad(now.getDate())} ${pad(now.getHours())}:${pad(now.getMinutes())}:${pad(now.getSeconds())}`;",
+																	"}",
+																	"",
+																	"pm.variables.set(\"req_ts\", getFormattedTimestamp());",
+																	"",
+																	""
+																],
+																"type": "text/javascript",
+																"packages": {}
+															}
+														}
+													],
+													"id": "2b36d134-a3a0-4e61-95bd-1334260ecccd",
+													"protocolProfileBehavior": {
+														"disableBodyPruning": true
+													},
+													"request": {
+														"auth": {
+															"type": "noauth"
+														},
+														"method": "POST",
+														"header": [],
+														"body": {
+															"mode": "raw",
+															"raw": "{\n    \"reqHeader\": {\n        \"entityId\": \"{{entity_id}}\",\n        \"version\": \"V1.00\",\n        \"reqTS\": \"{{req_ts}}\",\n        \"apiType\": \"SCHD-ENTRY\",\n        \"userId\": \"CUSPMONUAT\",\n        \"encryptPwd\": \"{{sch_txn_encrypt_pwd}}\",\n        \"uniqueId\": \"10001001\"\n    },\n    \"reqBody\": {\n        \"event\": \"E\",\n        \"extRefNo\": \"12907241888\",\n        \"corn\": \"\",\n        \"mode\": \"R\",\n        \"subMode\": \"F\",\n        \"apprType\": \"O\",\n        \"can\": \"14157AZA01\",\n        \"txnType\": \"B\",\n        \"jntFlag\": \"N\",\n        \"holdInfo\": [],\n        \"riaCode\": \"INA000020004\",\n        \"arnCode\": \"\",\n        \"subArnCode\": \"\",\n        \"euin\": \"\",\n        \"castDtl\": {\n            \"schDates\": \"\",\n            \"freq\": \"M\",\n            \"freDay\": \"16\",\n            \"stDate\": \"2025-07-16\",\n            \"endType\": \"D\",\n            \"noOfIns\": \"\",\n            \"endDate\": \"2050-07-16\",\n            \"trigType\": \"\",\n            \"execLvl\": \"\",\n            \"gChType\": \"\",\n            \"gChVol\": \"\",\n            \"gEndRngDate\": \"\"\n        },\n        \"noOfSch\": \"1\",\n        \"totAmt\": \"1000\",\n        \"schList\": [\n            {\n                \"rtaAmcCode\": \"RMF\",\n                \"rtaSchCode\": \"LQAQ\",\n                \"outRtaSchCode\": \"\",\n                \"folio\": \"NEW\",\n                \"divOpt\": \"P\",\n                \"txnVolTyp\": \"A\",\n                \"vol\": \"1000\",\n                \"extUnqRefId\": \"123\",\n                \"chAmtFlag\": \"N\",\n                \"chAmtDtl\": {\n                    \"chType\": \"\",\n                    \"chVol\": \"\",\n                    \"endRngDate\": \"\",\n                    \"chPeriod\": \"\",\n                    \"chPerType\": \"\",\n                    \"chPerVal\": \"\",\n                    \"navTrigTxnType\": \"\"\n                },\n                \"payOutFlag\": \"N\",\n                \"payOutDtl\": {\n                    \"invAccNo\": \"\",\n                    \"micr\": \"\",\n                    \"ifsc\": \"\"\n                },\n                \"priOtpFlag\": \"\",\n                \"priMob\": \"\",\n                \"priEmail\": \"\"\n            }\n        ],\n        \"dpSecFlag\": \"N\",\n        \"dpSec\": {\n            \"dpType\": \"\",\n            \"dpAccNo\": \"\"\n        },\n        \"paySecFlag\": \"Y\",\n        \"paySec\": {\n            \"payMode\": \"NE\",\n            \"bnkId\": \"027\",\n            \"micr\": \"123456789\",\n            \"ifsc\": \"UTBI0BEC135\",\n            \"accType\": \"SB\",\n            \"accNo\": \"12345\",\n            \"payAmt\": \"1000\",\n            \"payRefNo\": \"\",\n            \"beneVan\": \"MFUYES14157AZA01\",\n            \"pgId\": \"\"\n        }\n    }\n}",
 															"options": {
 																"raw": {
 																	"language": "json"
