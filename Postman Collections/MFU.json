@@ -5483,7 +5483,7 @@
 													"response": []
 												},
 												{
-													"name": "Net Banking Copy",
+													"name": "UPI",
 													"event": [
 														{
 															"listen": "prerequest",
